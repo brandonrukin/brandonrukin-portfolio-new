@@ -1,0 +1,24 @@
+@import 'normalize.css';
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+@lost flexbox flex;
+
+$primary-color: #00C3A9;
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	font: 16px 'Lato', sans-serif;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+@import '_header.css';
+@import '_blog.css';
+@import '_reading.css';
+@import '_typed.css';
+@import '_footer.css';

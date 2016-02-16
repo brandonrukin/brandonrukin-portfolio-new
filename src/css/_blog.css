@@ -1,0 +1,37 @@
+.blog{
+	margin-top: 20px;
+	&__container {
+		lost-center: 820px 30px;
+		.article {
+			lost-column: 1/1 1 40px;
+		}
+	} 
+}
+.article {
+	padding: 10px 0px 40px;
+	border-bottom: 1px solid #DDD;
+	&:last-child {
+		border-bottom: 0;
+	}
+	&__title {
+		font-weight: 300;
+		font-size: 1.8em;
+		margin-bottom: 10px;
+		a {
+			&:hover {
+				color: $primary-color;
+				transition: .2s ease;
+			}
+		}
+	}
+	&__descr {
+		font-weight: 300;
+		color: #333;
+		line-height: 1.5em;
+		margin-top: 14px;
+		margin-bottom: 25px;
+	}
+	&__img {
+		width: 100%;
+	}
+}

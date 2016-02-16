@@ -1,0 +1,28 @@
+.footer {
+	margin-top: 40px;
+	border-top: 1px solid #DDD;
+	&__container {
+		lost-center: 1120px 30px;
+		.bottom-nav {
+			lost-column: 1/1 2 80px;
+		}
+	} 
+}
+.bottom-nav-copyright {
+	float: left;
+	&__label {
+		display: inline-block;
+		font-weight: 300;
+	}
+} 
+.bottom-nav-menu {
+	float: right;
+	&__item {
+		font-weight: 300;
+		display: inline-block;
+		margin-right: 40px;
+		&:last-child {
+			margin-right: 0px;
+		}
+	}
+}

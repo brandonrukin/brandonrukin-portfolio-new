@@ -1,0 +1,32 @@
+.header {
+	border-bottom: 1px solid #DDD;
+	&__container {
+		lost-center: 1120px 30px;
+		.top-nav {
+			lost-column: 1/1 2 80px;
+		}
+	} 
+}
+.top-nav-brand {
+	float: left;
+	&__header {
+		display: inline-block;
+		font-weight: 600;
+		margin-right: 20px;
+	}
+	&__descr {
+		display: inline-block;
+		font-weight: 300;
+	} 
+}
+.top-nav-menu {
+	float: right;
+	&__item {
+		font-weight: 300;
+		display: inline-block;
+		margin-right: 40px;
+		&:last-child {
+			margin-right: 0px;
+		}
+	}
+}
