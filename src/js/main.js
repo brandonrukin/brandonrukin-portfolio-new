@@ -16,6 +16,14 @@ $(document).ready(function() {
 		$('.book__cover, .book__arrow, .book__dropdown, .book__spacer', this).toggleClass('display');
 	});
 
+	//display article title underline
+	$('.article').on('mouseenter', function() {
+		$('.article__title', this).addClass('display');
+	});
+	$('.article').on('mouseleave', function() {
+		$('.article__title', this).removeClass('display');
+	});
+
 });
 
  
